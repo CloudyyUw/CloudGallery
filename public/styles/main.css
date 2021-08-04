@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(44, 43, 43);
+}
+.r {
+  float: right;
+  display: inline-block;
+}
+.delete {
+  float: right;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+  color: #42daf5;
+}
