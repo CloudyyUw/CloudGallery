@@ -11,7 +11,7 @@ I will not teach you how to create a project in Firebase, since it is quite simp
 The only real instruction is to rename the file `firebase.example.js` to `firebase.js` and enter your project credentials.
 
 ## Included 3rd party frameworks
- - [Bootstrap](https://getbootstrap.com/)
+- [Bootstrap](https://getbootstrap.com/)
   - CSS / JS
 
 - [Semantic UI](https://semantic-ui.com/)
