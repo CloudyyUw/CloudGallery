@@ -80,7 +80,7 @@ async function loadData() {
     out.innerHTML += `
     <div class="ui inverted message">
       <div class="header">
-        <i class="far fa-file"></i> <a href="${content.data().url}">${content.data().name}</a> <button class="ui negative basic button delete" id="delete" data-id="${content.id}" data-file="${content.data().name}"><i class="far fa-trash-alt"></i></button>
+        <i class="far fa-file"></i> <a href="${content.data().url}">${content.data().name}</a> <button class="delete ui negative basic button" data-id="${content.id}" data-file="${content.data().name}"><i class="far fa-trash-alt"></i></button>
       </div>
       <div>
         ${content.data().type == "image" ? `<img class="ui image" src="${content.data().url} />"` : ""}
@@ -97,7 +97,7 @@ $(document).ready(async function() {
   $("#up1").click(function() {
     $("#up").show()
   })
-  $("#delete").click(function() {
+  $(".delete").click(function() {
     handleDelete(this.dataset.id, this.dataset.file);
   })
 })
