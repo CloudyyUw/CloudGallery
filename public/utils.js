@@ -84,7 +84,7 @@ async function loadData() {
       </div>
       <div>
         ${content.data().type == "image" ? `<img class="ui image" src="${content.data().url} />"` : ""}
-        ${content.data().type == "video" ? `<video width="320" height="240" controls> <source src="${content.data().url}"></video>` : ""}
+        ${content.data().type == "video" ? `<video width="400" controls> <source src="${content.data().url}"></video>` : ""}
         ${content.data().type == "audio" ? `<audio controls><source src="${content.data().url}"></audio>`: ""}
       </div>
     </div>
