@@ -19,3 +19,7 @@ The only real instruction is to rename the file `firebase.example.js` to `fireba
 
 - [JQuery](https://jquery.com/)
   - JS
+
+---
+
+**To do**: Add support for uploading multiple files.
